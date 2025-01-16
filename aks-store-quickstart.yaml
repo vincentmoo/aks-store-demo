@@ -279,7 +279,7 @@ metadata:
   name: store-front
 spec:
   ports:
-  - port: 80
+  - port: 443
     targetPort: 8080
   selector:
     app: store-front
